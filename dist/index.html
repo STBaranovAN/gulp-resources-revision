@@ -1,0 +1,44 @@
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Active Placeholder</title>
+		
+        <link href="bootstrap_3.3.5/css/bootstrap-3e53c6843a.min.css" rel="stylesheet">
+	</head>
+	
+	<body>
+
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 form-group no-horizontal-padding">
+        Имя:
+        <input id="Name" name="Name" data-mask-name="Name" type="text" class="form-control" tabindex="0">
+        Email:
+        <input id="Email" name="Email" data-mask-name="Email" type="text" class="form-control" tabindex="1">
+        Логин:
+        <input id="Login" name="Login" data-mask-name="Login" type="text" class="form-control" tabindex="2">
+        Адрес:
+        <input id="Address" name="Address" data-mask-name="Address" type="text" class="form-control" tabindex="3">
+        Телефон:
+        <input id="Phone" name="Phone" data-mask-name="Phone" type="text" class="form-control" tabindex="4">
+    </div>
+	
+	<script src="jquery_1.11.3/jquery-1-46639776ff.11.3.js"></script>
+    <script src="bootstrap_3.3.5/js/bootstrap-e7d9a06cf9.min.js"></script>
+    <script src="input-char-filter/utils-9d51373907.js"></script>
+	<script src="input-char-filter/input-char-filter-d0f17d9c7e.js"></script>
+	
+	<script>
+        $(document).ready(function () {
+            $("input[data-mask-name]").each(function(index, value) {
+                utils.charFilterForInputReplaceByEmptyString(value);
+            });
+
+            $("textarea[data-mask-name]").each(function(index, value) {
+                utils.charFilterForInputReplaceByEmptyString(value);
+            });
+        });
+
+    </script>
+	
+	</body>
+</html>

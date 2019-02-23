@@ -1,0 +1,12 @@
+{
+  "bootstrap_3.3.5/css/bootstrap-theme.css": "bootstrap_3.3.5/css/bootstrap-theme-fa8821c9d4.css",
+  "bootstrap_3.3.5/css/bootstrap-theme.min.css": "bootstrap_3.3.5/css/bootstrap-theme-644d1de09e.min.css",
+  "bootstrap_3.3.5/css/bootstrap.css": "bootstrap_3.3.5/css/bootstrap-bba40d0d97.css",
+  "bootstrap_3.3.5/css/bootstrap.min.css": "bootstrap_3.3.5/css/bootstrap-3e53c6843a.min.css",
+  "bootstrap_3.3.5/js/bootstrap.js": "bootstrap_3.3.5/js/bootstrap-5a9f44d675.js",
+  "bootstrap_3.3.5/js/bootstrap.min.js": "bootstrap_3.3.5/js/bootstrap-e7d9a06cf9.min.js",
+  "bootstrap_3.3.5/js/npm.js": "bootstrap_3.3.5/js/npm-9ec191bedb.js",
+  "input-char-filter/input-char-filter.js": "input-char-filter/input-char-filter-d0f17d9c7e.js",
+  "input-char-filter/utils.js": "input-char-filter/utils-9d51373907.js",
+  "jquery_1.11.3/jquery-1.11.3.js": "jquery_1.11.3/jquery-1-46639776ff.11.3.js"
+}
